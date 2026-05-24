@@ -125,17 +125,17 @@ nav {
 .card:hover::before { transform:scaleX(1); }
 .card:hover { border-color:var(--card-color,var(--accent)); transform:translateY(-2px); }
 .card-icon { font-size:28px; margin-bottom:12px; }
-.card-title { font-size:15px; font-weight:700; color:var(--text); margin-bottom:6px; }
-.card-desc { font-size:13px; color:var(--dim); line-height:1.7; }
+.card-title { font-size:16px; font-weight:700; color:var(--text); margin-bottom:6px; }
+.card-desc { font-size:14px; color:var(--dim); line-height:1.7; }
 
 /* ── SPEC TABLE ── */
 .spec-table { width:100%; border-collapse:collapse; border-radius:12px; overflow:hidden; border:1px solid var(--border); }
 .spec-table tr { border-bottom:1px solid var(--border); }
 .spec-table tr:last-child { border-bottom:none; }
 .spec-table tr:hover td { background:rgba(249,115,22,.04); }
-.spec-table td { padding:13px 18px; font-size:14px; }
+.spec-table td { padding:13px 18px; font-size:15px; }
 .spec-table td:first-child { color:var(--muted); font-weight:600; width:45%; background:var(--surface); }
-.spec-table td:last-child { color:var(--text); background:var(--surface2); font-family:'IBM Plex Mono',monospace; font-size:13px; }
+.spec-table td:last-child { color:var(--text); background:var(--surface2); font-family:'IBM Plex Mono',monospace; font-size:14px; }
 
 /* ── FEATURE PILLS ── */
 .pills { display:flex; flex-wrap:wrap; gap:8px; margin-top:6px; }
@@ -150,7 +150,7 @@ nav {
 .pill.amber { background:rgba(251,191,36,.1); border-color:rgba(251,191,36,.3); color:var(--amber); }
 
 /* ── HIGHLIGHT BOX ── */
-.hbox { border-radius:10px; padding:14px 18px; margin:14px 0; font-size:14px; line-height:1.8; }
+.hbox { border-radius:10px; padding:14px 18px; margin:14px 0; font-size:15px; line-height:1.8; }
 .hbox.info { background:rgba(56,189,248,.07); border:1px solid rgba(56,189,248,.2); color:var(--blue); }
 .hbox.warn { background:rgba(251,191,36,.07); border:1px solid rgba(251,191,36,.2); color:var(--amber); }
 .hbox.tip { background:rgba(34,197,94,.07); border:1px solid rgba(34,197,94,.2); color:var(--green); }
@@ -161,14 +161,14 @@ nav {
   background:var(--surface); border:1px solid var(--border); border-radius:12px;
   padding:22px; margin-bottom:16px;
 }
-.cblock h3 { font-size:14px; font-weight:700; color:var(--accent2); margin-bottom:12px; text-transform:uppercase; letter-spacing:.5px; }
-.cblock p { font-size:14px; color:var(--dim); line-height:1.85; margin-bottom:10px; }
+.cblock h3 { font-size:15px; font-weight:700; color:var(--accent2); margin-bottom:12px; text-transform:uppercase; letter-spacing:.5px; }
+.cblock p { font-size:15px; color:var(--dim); line-height:1.85; margin-bottom:10px; }
 .cblock p:last-child { margin-bottom:0; }
 
 /* ── LIST ── */
 .feat-list { list-style:none; }
 .feat-list li {
-  font-size:14px; color:var(--dim); line-height:1.8;
+  font-size:15px; color:var(--dim); line-height:1.8;
   padding:8px 0; border-bottom:1px solid rgba(42,45,53,.7);
   display:flex; align-items:flex-start; gap:10px;
 }
@@ -189,8 +189,8 @@ nav {
   font-size:22px; background:var(--surface2);
   border:1px solid var(--border);
 }
-.light-info .light-name { font-size:14px; font-weight:700; color:var(--text); margin-bottom:3px; }
-.light-info .light-meaning { font-size:12px; color:var(--dim); line-height:1.6; }
+.light-info .light-name { font-size:15px; font-weight:700; color:var(--text); margin-bottom:3px; }
+.light-info .light-meaning { font-size:13px; color:var(--dim); line-height:1.6; }
 .light-sev {
   display:inline-block; font-size:10px; font-weight:700; padding:2px 7px;
   border-radius:4px; margin-top:5px; letter-spacing:.5px;
@@ -208,8 +208,8 @@ nav {
 }
 .maint-icon { font-size:24px; flex-shrink:0; }
 .maint-info { flex:1; }
-.maint-title { font-size:14px; font-weight:700; color:var(--text); margin-bottom:2px; }
-.maint-desc { font-size:12px; color:var(--dim); }
+.maint-title { font-size:15px; font-weight:700; color:var(--text); margin-bottom:2px; }
+.maint-desc { font-size:13px; color:var(--dim); }
 .maint-interval {
   font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:600;
   padding:4px 10px; border-radius:6px; white-space:nowrap;
@@ -228,8 +228,8 @@ nav {
   background:var(--accent); color:white; font-weight:800;
   display:flex; align-items:center; justify-content:center; font-size:15px;
 }
-.tip-title { font-size:14px; font-weight:700; color:var(--text); margin-bottom:4px; }
-.tip-body { font-size:13px; color:var(--dim); line-height:1.75; }
+.tip-title { font-size:15px; font-weight:700; color:var(--text); margin-bottom:4px; }
+.tip-body { font-size:14px; color:var(--dim); line-height:1.75; }
 
 /* ── SIDEBAR LAYOUT (for detail pages) ── */
 .detail-layout { display:grid; grid-template-columns:200px 1fr; min-height:calc(100vh - 62px); }
@@ -239,7 +239,7 @@ nav {
 }
 .sidebar-lbl { font-size:11px; font-weight:700; letter-spacing:1.5px; color:var(--muted); padding:0 18px; margin-bottom:6px; }
 .sidebar-item {
-  padding:11px 18px; font-size:13px; cursor:pointer; transition:all .15s;
+  padding:11px 18px; font-size:14px; cursor:pointer; transition:all .15s;
   color:var(--dim); border-left:3px solid transparent; display:flex; align-items:center; gap:8px;
 }
 .sidebar-item:hover { background:var(--surface2); color:var(--text); }
@@ -324,6 +324,7 @@ nav {
       <div class="stat-box"><span class="stat-num">1.5T</span><span class="stat-lbl" data-en="Engine" data-ar="المحرك">Engine</span></div>
       <div class="stat-box"><span class="stat-num">156</span><span class="stat-lbl" data-en="Horsepower" data-ar="حصان">Horsepower</span></div>
       <div class="stat-box"><span class="stat-num">230</span><span class="stat-lbl" data-en="Torque (Nm)" data-ar="عزم (نيوتن)">Torque (Nm)</span></div>
+      <div class="stat-box"><span class="stat-num">DCT‑6</span><span class="stat-lbl" data-en="Transmission" data-ar="ناقل الحركة">Transmission</span></div>
       <div class="stat-box"><span class="stat-num">10.25"</span><span class="stat-lbl" data-en="Dual Screens" data-ar="شاشتان">Dual Screens</span></div>
       <div class="stat-box"><span class="stat-num">398L</span><span class="stat-lbl" data-en="Boot Space" data-ar="شنطة الصندوق">Boot Space</span></div>
     </div>
@@ -336,21 +337,59 @@ nav {
         <table class="spec-table">
           <tr><td data-en="Engine" data-ar="المحرك">Engine</td><td>1.5L Turbo 4-cyl</td></tr>
           <tr><td data-en="Power" data-ar="القوة">Power</td><td>156 HP @ 5500 rpm</td></tr>
-          <tr><td data-en="Torque" data-ar="عزم الدوران">Torque</td><td>230 Nm @ 1750 rpm</td></tr>
-          <tr><td data-en="Transmission" data-ar="ناقل الحركة">Transmission</td><td>CVT Automatic</td></tr>
+          <tr><td data-en="Torque" data-ar="عزم الدوران">Torque</td><td>230 Nm @ 1750–4000 rpm</td></tr>
+          <tr><td data-en="Transmission" data-ar="ناقل الحركة">Transmission</td><td>6-Speed DCT</td></tr>
           <tr><td data-en="Drive" data-ar="نظام الدفع">Drive</td><td>FWD (Front-Wheel)</td></tr>
+          <tr><td data-en="Drive Modes" data-ar="أنماط القيادة">Drive Modes</td><td>Normal / Sport / Eco</td></tr>
+          <tr><td data-en="Front Suspension" data-ar="تعليق أمامي">Front Suspension</td><td>MacPherson</td></tr>
+          <tr><td data-en="Rear Suspension" data-ar="تعليق خلفي">Rear Suspension</td><td>Multi-link</td></tr>
           <tr><td data-en="Fuel Type" data-ar="نوع الوقود">Fuel Type</td><td>Petrol / Unleaded</td></tr>
+          <tr><td data-en="Fuel Tank" data-ar="خزان الوقود">Fuel Tank</td><td>45 L</td></tr>
         </table>
       </div>
       <div>
         <table class="spec-table">
-          <tr><td data-en="Length" data-ar="الطول">Length</td><td>4,320 mm</td></tr>
-          <tr><td data-en="Width" data-ar="العرض">Width</td><td>1,835 mm</td></tr>
-          <tr><td data-en="Height" data-ar="الارتفاع">Height</td><td>1,678 mm</td></tr>
-          <tr><td data-en="Wheelbase" data-ar="قاعدة العجلات">Wheelbase</td><td>2,620 mm</td></tr>
+          <tr><td data-en="Length" data-ar="الطول">Length</td><td>4,397 mm</td></tr>
+          <tr><td data-en="Width" data-ar="العرض">Width</td><td>1,841 mm</td></tr>
+          <tr><td data-en="Height" data-ar="الارتفاع">Height</td><td>1,654 mm</td></tr>
+          <tr><td data-en="Wheelbase" data-ar="قاعدة العجلات">Wheelbase</td><td>2,601 mm</td></tr>
+          <tr><td data-en="Ground Clearance" data-ar="ارتفاع الأرض">Ground Clearance</td><td>190 mm</td></tr>
+          <tr><td data-en="Seats" data-ar="المقاعد">Seats</td><td>5</td></tr>
           <tr><td data-en="Boot (seats up)" data-ar="صندوق التخزين">Boot (seats up)</td><td>398 L</td></tr>
           <tr><td data-en="Boot (seats down)" data-ar="صندوق مطوي">Boot (seats down)</td><td>1,262 L</td></tr>
+          <tr><td data-en="Tyres" data-ar="الإطارات">Tyres</td><td>215/60 R17</td></tr>
+          <tr><td data-en="Tyre Pressure" data-ar="ضغط الإطارات">Tyre Pressure</td><td>30–31 PSI (2.1 bar)</td></tr>
         </table>
+      </div>
+    </div>
+
+    <div class="sec-title" data-en="WARRANTY" data-ar="الضمان">WARRANTY</div>
+    <div class="cblock" style="margin-bottom:32px">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+        <div style="background:rgba(249,115,22,.07);border:1px solid rgba(249,115,22,.25);border-radius:10px;padding:16px;text-align:center">
+          <div style="font-size:28px;font-weight:800;color:var(--accent);font-family:'IBM Plex Mono',monospace">6 <span style="font-size:14px">yrs</span></div>
+          <div style="font-size:13px;color:var(--dim);margin-top:4px" data-en="Vehicle Warranty · 150,000 km" data-ar="ضمان السيارة · 150,000 كم">Vehicle Warranty · 150,000 km</div>
+        </div>
+        <div style="background:rgba(34,197,94,.07);border:1px solid rgba(34,197,94,.25);border-radius:10px;padding:16px;text-align:center">
+          <div style="font-size:28px;font-weight:800;color:var(--green);font-family:'IBM Plex Mono',monospace">10 <span style="font-size:14px">yrs</span></div>
+          <div style="font-size:13px;color:var(--dim);margin-top:4px" data-en="Engine Warranty · 1,000,000 km (1st owner)" data-ar="ضمان المحرك · 1,000,000 كم (للمالك الأول)">Engine Warranty · 1,000,000 km (1st owner)</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-title" data-en="AVAILABLE COLORS" data-ar="الألوان المتوفرة">AVAILABLE COLORS</div>
+    <div class="cblock" style="margin-bottom:32px">
+      <h3 data-en="Exterior" data-ar="خارجي">Exterior</h3>
+      <div class="pills" style="margin-bottom:16px">
+        <span class="pill" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.3);color:#f1f5f9">⬜ Snow White</span>
+        <span class="pill" style="background:rgba(30,30,30,.5);border-color:rgba(100,100,100,.4);color:#9ca3af">⬛ Black</span>
+        <span class="pill" style="background:rgba(107,114,128,.15);border-color:rgba(107,114,128,.35);color:#9ca3af">🔘 Grey Phantom</span>
+        <span class="pill" style="background:rgba(192,192,192,.12);border-color:rgba(192,192,192,.35);color:#d1d5db">🪙 Aviation Silver</span>
+        <span class="pill blue">🔵 Vanilla Blue</span>
+      </div>
+      <h3 data-en="Interior" data-ar="داخلي">Interior</h3>
+      <div class="pills">
+        <span class="pill" style="background:rgba(30,30,30,.5);border-color:rgba(100,100,100,.4);color:#9ca3af">⬛ Obsidian Black</span>
       </div>
     </div>
 
@@ -368,8 +407,13 @@ nav {
       </div>
       <div class="card" style="--card-color:#38bdf8">
         <div class="card-icon">🛡️</div>
-        <div class="card-title" data-en="6 Airbags" data-ar="6 وسائد هوائية">6 Airbags</div>
-        <div class="card-desc" data-en="Front, side, and curtain airbags for comprehensive passenger protection" data-ar="وسائد هوائية أمامية وجانبية وستائرية لحماية شاملة للركاب">Front, side, and curtain airbags for comprehensive passenger protection</div>
+        <div class="card-title" data-en="4 Airbags" data-ar="4 وسائد هوائية">4 Airbags</div>
+        <div class="card-desc" data-en="Front and side airbags for comprehensive driver and passenger protection" data-ar="وسائد هوائية أمامية وجانبية لحماية شاملة للسائق والراكب">Front and side airbags for comprehensive driver and passenger protection</div>
+      </div>
+      <div class="card" style="--card-color:#22c55e">
+        <div class="card-icon">🔑</div>
+        <div class="card-title" data-en="Remote Start" data-ar="تشغيل عن بُعد">Remote Start</div>
+        <div class="card-desc" data-en="Start the engine remotely from your key fob to pre-cool or pre-warm the cabin before you get in" data-ar="شغّل المحرك عن بُعد من الريموت لتبريد أو تسخين المقصورة مسبقاً">Start the engine remotely to pre-cool or pre-warm the cabin before you get in</div>
       </div>
       <div class="card" style="--card-color:#fbbf24">
         <div class="card-icon">🌙</div>
@@ -396,9 +440,11 @@ nav {
         <span class="pill green" data-en="Electric Sunroof" data-ar="فتحة سقف كهربائية">✓ Electric Sunroof</span>
         <span class="pill green" data-en="Keyless Entry" data-ar="دخول بدون مفتاح">✓ Keyless Entry</span>
         <span class="pill green" data-en="Push-Start Button" data-ar="زر تشغيل">✓ Push-Start Button</span>
+        <span class="pill green" data-en="Remote Start" data-ar="تشغيل عن بُعد">✓ Remote Start</span>
         <span class="pill green" data-en="Auto Headlights" data-ar="مصابيح تلقائية">✓ Auto Headlights</span>
         <span class="pill green" data-en="Auto Wipers" data-ar="مساحات تلقائية">✓ Auto Wipers</span>
         <span class="pill green" data-en="6-Speaker Audio" data-ar="6 سماعات">✓ 6-Speaker Audio</span>
+        <span class="pill green" data-en="Wireless Charging" data-ar="شحن لاسلكي">✓ Wireless Charging</span>
         <span class="pill green" data-en="Rear A/C Vents" data-ar="فتحات تكييف خلفية">✓ Rear A/C Vents</span>
       </div>
     </div>
@@ -431,6 +477,8 @@ nav {
       <option value="2" data-en="Climate Controls" data-ar="التحكم بالتكييف">Climate Controls</option>
       <option value="3" data-en="Audio & Bluetooth" data-ar="الصوت والبلوتوث">Audio & Bluetooth</option>
       <option value="4" data-en="Camera System" data-ar="نظام الكاميرا">Camera System</option>
+      <option value="5" data-en="Voice Commands" data-ar="الأوامر الصوتية">Voice Commands</option>
+      <option value="6" data-en="Defrost & Fog Guide" data-ar="دليل إزالة الضباب">Defrost & Fog Guide</option>
     </select>
   </div>
   <div class="detail-layout">
@@ -441,6 +489,8 @@ nav {
       <div class="sidebar-item" onclick="showSub('tech',2)" data-en="❄️ Climate Controls" data-ar="❄️ التحكم بالتكييف">❄️ Climate Controls</div>
       <div class="sidebar-item" onclick="showSub('tech',3)" data-en="🔊 Audio & Bluetooth" data-ar="🔊 الصوت والبلوتوث">🔊 Audio & Bluetooth</div>
       <div class="sidebar-item" onclick="showSub('tech',4)" data-en="📷 Camera System" data-ar="📷 نظام الكاميرا">📷 Camera System</div>
+      <div class="sidebar-item" onclick="showSub('tech',5)" data-en="🎙️ Voice Commands" data-ar="🎙️ الأوامر الصوتية">🎙️ Voice Commands</div>
+      <div class="sidebar-item" onclick="showSub('tech',6)" data-en="🌫️ Defrost & Fog" data-ar="🌫️ إزالة الضباب">🌫️ Defrost & Fog</div>
     </div>
     <div class="detail-content">
 
@@ -473,21 +523,22 @@ nav {
 
       <div class="sub-section" id="tech-1">
         <div class="sec-title" data-en="APPLE CARPLAY & ANDROID AUTO" data-ar="آبل كاربلاي وأندرويد أوتو">APPLE CARPLAY & ANDROID AUTO</div>
+        <div class="hbox tip" data-en="✅ The S05 supports both WIRELESS and wired CarPlay/Android Auto. No cable needed — just pair once via Bluetooth and your phone connects automatically every time." data-ar="✅ السيارة S05 تدعم الاتصال اللاسلكي والسلكي لكاربلاي وأندرويد أوتو. لا كابل مطلوب — اقرن مرة واحدة عبر البلوتوث وسيتصل هاتفك تلقائياً في كل مرة.">✅ The S05 supports both WIRELESS and wired CarPlay/Android Auto. No cable needed — just pair once via Bluetooth and your phone connects automatically every time.</div>
         <div class="cblock">
-          <h3 data-en="How to Connect – iPhone (CarPlay)" data-ar="كيف تتصل – آيفون (كاربلاي)">How to Connect – iPhone (CarPlay)</h3>
+          <h3 data-en="How to Connect Wirelessly – iPhone (CarPlay)" data-ar="الاتصال اللاسلكي – آيفون (كاربلاي)">How to Connect Wirelessly – iPhone (CarPlay)</h3>
           <ul class="feat-list">
-            <li data-en="Connect your iPhone with a USB-C or Lightning cable to the USB port in the center console" data-ar="وصّل آيفونك بكابل USB-C أو Lightning إلى منفذ USB في وحدة التحكم المركزية">Connect your iPhone with a USB-C or Lightning cable to the USB port in the center console</li>
-            <li data-en="A CarPlay permission prompt will appear on your iPhone — tap Allow" data-ar="ستظهر رسالة إذن على آيفونك — اضغط السماح">A CarPlay permission prompt will appear on your iPhone — tap Allow</li>
-            <li data-en="CarPlay will launch automatically on the infotainment screen" data-ar="سيعمل كاربلاي تلقائياً على شاشة الترفيه">CarPlay will launch automatically on the infotainment screen</li>
-            <li data-en="Press the Home button on screen (or the CarPlay icon) to return to the CarPlay menu" data-ar="اضغط زر الرئيسية على الشاشة للعودة إلى قائمة كاربلاي">Press the Home button on screen to return to the CarPlay menu</li>
+            <li data-en="On the infotainment screen go to: Settings → CarPlay → Add device" data-ar="على شاشة الترفيه اذهب إلى: الإعدادات ← كاربلاي ← إضافة جهاز">On the infotainment screen go to: Settings → CarPlay → Add device</li>
+            <li data-en="On your iPhone go to Settings → General → CarPlay and select the car" data-ar="على آيفونك اذهب إلى: الإعدادات ← عام ← كاربلاي واختر السيارة">On your iPhone go to Settings → General → CarPlay and select the car</li>
+            <li data-en="After the first pairing, CarPlay connects automatically every time you start the car" data-ar="بعد أول إقران، يتصل كاربلاي تلقائياً في كل مرة تشغّل فيها السيارة">After the first pairing, CarPlay connects automatically every time you start the car</li>
+            <li data-en="Alternatively, connect via USB-C or Lightning cable for wired CarPlay" data-ar="أو وصّل بكابل USB-C أو Lightning للاتصال السلكي">Alternatively, connect via USB-C or Lightning cable for wired CarPlay</li>
           </ul>
         </div>
         <div class="cblock">
           <h3 data-en="How to Connect – Android (Android Auto)" data-ar="كيف تتصل – أندرويد (أندرويد أوتو)">How to Connect – Android (Android Auto)</h3>
           <ul class="feat-list">
             <li data-en="Install the Android Auto app from the Play Store (if not already installed)" data-ar="ثبّت تطبيق Android Auto من متجر Play (إن لم يكن مثبتاً)">Install the Android Auto app from the Play Store (if not already installed)</li>
-            <li data-en="Connect your phone via USB cable. Allow all requested permissions on the phone" data-ar="وصّل هاتفك عبر كابل USB. اسمح بجميع الأذونات المطلوبة على الهاتف">Connect your phone via USB cable. Allow all requested permissions on the phone</li>
-            <li data-en="Android Auto will launch on the infotainment screen automatically" data-ar="سيعمل Android Auto تلقائياً على شاشة الترفيه">Android Auto will launch on the infotainment screen automatically</li>
+            <li data-en="For wireless: enable Wi-Fi and Bluetooth on your phone, then select the car from Android Auto settings" data-ar="للاتصال اللاسلكي: شغّل Wi-Fi والبلوتوث على هاتفك ثم اختر السيارة من إعدادات Android Auto">For wireless: enable Wi-Fi and Bluetooth on your phone, then select the car from Android Auto settings</li>
+            <li data-en="For wired: connect your phone via USB cable. Allow all requested permissions on the phone" data-ar="للاتصال السلكي: وصّل هاتفك عبر كابل USB وأذن بجميع الأذونات المطلوبة">For wired: connect your phone via USB cable. Allow all requested permissions on the phone</li>
           </ul>
         </div>
         <div class="cblock">
@@ -499,7 +550,15 @@ nav {
             <li data-en="Messages: Siri or Google Assistant reads and replies to messages for you" data-ar="الرسائل: يقرأ ويرد المساعد الذكي على رسائلك بدلاً عنك">Messages: Siri or Google Assistant reads and replies to messages for you</li>
           </ul>
         </div>
-        <div class="hbox tip" data-en="✅ Best practice: Keep your phone plugged in so it charges while you navigate — GPS and screen mirroring drain the battery quickly." data-ar="✅ أفضل ممارسة: أبقِ هاتفك موصولاً لشحنه أثناء التنقل — الخرائط وعرض الشاشة يستنزفان البطارية بسرعة.">✅ Best practice: Keep your phone plugged in so it charges while you navigate — GPS and screen mirroring drain the battery quickly.</div>
+        <div class="cblock">
+          <h3 data-en="USB Ports & Wireless Charging" data-ar="منافذ USB والشحن اللاسلكي">USB Ports & Wireless Charging</h3>
+          <ul class="feat-list">
+            <li data-en="5 USB ports total — front console + rear passengers" data-ar="5 منافذ USB — وحدة التحكم الأمامية والركاب الخلفيين">5 USB ports total — front console + rear passengers</li>
+            <li data-en="Wireless phone charging pad in the center console — place your phone and it charges automatically" data-ar="لوحة شحن لاسلكي للهواتف في وحدة التحكم المركزية — ضع هاتفك ويشحن تلقائياً">Wireless phone charging pad in the center console — place your phone and it charges automatically</li>
+            <li data-en="The wireless charger has a built-in ventilation fan to prevent overheating while charging" data-ar="الشاحن اللاسلكي مزود بمروحة تهوية مدمجة لمنع ارتفاع الحرارة أثناء الشحن">The wireless charger has a built-in ventilation fan to prevent overheating while charging</li>
+          </ul>
+        </div>
+        <div class="hbox tip" data-en="✅ Best practice: Use wireless CarPlay/Android Auto + wireless charging for a fully cable-free experience. Keep the charging pad free of coins or metal objects." data-ar="✅ أفضل ممارسة: استخدم الاتصال اللاسلكي للكاربلاي وأندرويد أوتو + الشحن اللاسلكي لتجربة خالية تماماً من الكابلات. ابقِ لوحة الشحن خالية من العملات أو الأشياء المعدنية.">✅ Best practice: Use wireless CarPlay + wireless charging for a fully cable-free experience. Keep the charging pad free of metal objects.</div>
       </div>
 
       <div class="sub-section" id="tech-2">
@@ -567,6 +626,75 @@ nav {
         <div class="hbox tip" data-en="💡 Keep your cameras clean — especially the rear one. Dirty lenses produce blurry, misleading images. Clean with a soft cloth and water." data-ar="💡 حافظ على نظافة الكاميرات — خاصةً الخلفية. العدسات المتسخة تنتج صوراً ضبابية ومضللة. نظّفها بقطعة قماش ناعمة وماء.">💡 Keep your cameras clean. Dirty lenses produce blurry, misleading images. Clean with a soft cloth and water.</div>
       </div>
 
+      <!-- ─── SUB-SECTION 5 – VOICE COMMANDS ─── -->
+      <div class="sub-section" id="tech-5">
+        <div class="sec-title" data-en="VOICE COMMANDS" data-ar="الأوامر الصوتية">VOICE COMMANDS</div>
+        <div class="cblock">
+          <h3 data-en="How to Activate" data-ar="كيف تشغّل الأوامر الصوتية">How to Activate</h3>
+          <ul class="feat-list">
+            <li data-en='Say "Hi SouEast" or "Hi Soul Ease" then speak your command' data-ar='قل "Hi SouEast" أو "Hi Soul Ease" ثم اذكر الأمر الذي تريده'>Say <strong>"Hi SouEast"</strong> or <strong>"Hi Soul Ease"</strong> then speak your command</li>
+            <li data-en="Or press the voice command button on the steering wheel (microphone icon)" data-ar="أو اضغط زرار الأوامر الصوتية على المقود (أيقونة الميكروفون)">Or press the voice command button on the steering wheel (microphone icon)</li>
+          </ul>
+        </div>
+        <div class="cblock">
+          <h3 data-en="🌬️ Climate & Car Controls" data-ar="🌬️ التحكم في السيارة والتكييف">🌬️ Climate &amp; Car Controls</h3>
+          <ul class="feat-list">
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Open window</span> — <span data-en="opens the window" data-ar="لفتح الشباك">opens the window</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Turn on AC</span> — <span data-en="activates the air conditioning" data-ar="لتشغيل التكييف">activates the air conditioning</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Down temperature by two degrees</span> — <span data-en="lowers A/C temp by 2°C" data-ar="لتخفيض درجة الحرارة بدرجتين">lowers A/C temp by 2°C</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Decrease the fan</span> — <span data-en="reduces fan speed" data-ar="لتقليل سرعة المروحة">reduces fan speed</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Front defroster on</span> — <span data-en="activates front windscreen defrost" data-ar="لتشغيل إزالة الضباب من الزجاج الأمامي">activates front windscreen defrost</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Adjust to high wind speed</span> — <span data-en="raises fan to high speed" data-ar="لرفع سرعة مروحة التكييف">raises fan to high speed</span></li>
+          </ul>
+        </div>
+        <div class="cblock">
+          <h3 data-en="📞 Phone Calls" data-ar="📞 المكالمات">📞 Phone Calls</h3>
+          <ul class="feat-list">
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Make a call</span> — <span data-en="prompts you to say who to call" data-ar="يسألك تكلم مين">prompts you to say who to call</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Call [name]</span> — <span data-en="calls that person from your contacts directly" data-ar="يكلمه على طول من جهات الاتصال">calls that person from your contacts directly</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Open contacts</span> — <span data-en="opens your contacts list on screen" data-ar="يفتح قائمة جهات الاتصال على الشاشة">opens your contacts list on screen</span></li>
+          </ul>
+        </div>
+        <div class="cblock">
+          <h3 data-en="🎵 Music & Radio & Video" data-ar="🎵 الموسيقى والراديو والفيديو">🎵 Music, Radio &amp; Video</h3>
+          <ul class="feat-list">
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Play local songs</span> — <span data-en="plays music from USB flash drive" data-ar="يشغّل الأغاني من الفلاشة">plays music from USB flash drive</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Next song</span> — <span data-en="skips to the next track" data-ar="ينتقل للأغنية التالية">skips to the next track</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Turn on the radio</span> — <span data-en="activates the FM/AM radio" data-ar="يشغّل الراديو">activates the FM/AM radio</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Collect radio station</span> — <span data-en="auto-tunes to the clearest frequency" data-ar="يضبط التردد تلقائياً على أوضح استقبال">auto-tunes to the clearest frequency</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Scan radios</span> — <span data-en="searches all available radio stations" data-ar="يبحث عن جميع محطات الراديو المتاحة">searches all available radio stations</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Play videos from USB</span> — <span data-en="plays videos from USB flash drive" data-ar="يشغّل الفيديوهات من الفلاشة">plays videos from USB flash drive</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Next video</span> — <span data-en="skips to the next video" data-ar="ينتقل للفيديو التالي">skips to the next video</span></li>
+            <li><span style="color:var(--accent);font-family:'IBM Plex Mono',monospace">Stop video</span> — <span data-en="stops the current video" data-ar="يوقف الفيديو الحالي">stops the current video</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ─── SUB-SECTION 6 – DEFROST & FOG ─── -->
+      <div class="sub-section" id="tech-6">
+        <div class="sec-title" data-en="DEFROST & FOG GUIDE" data-ar="دليل إزالة الضباب والبخار">DEFROST &amp; FOG GUIDE</div>
+        <div class="hbox info" data-en="ℹ️ In rain and cold weather, fog builds up on the windscreen and windows. The S05 has two dedicated buttons in the climate panel to deal with this quickly." data-ar="ℹ️ في الأمطار والجو البارد، يتراكم البخار على الزجاج الأمامي والجانبي. السيارة S05 مزودة بزرارين مخصصين في لوحة التكييف للتعامل مع ذلك بسرعة.">ℹ️ In rain and cold weather, fog builds up on the windscreen and windows. The S05 has two dedicated buttons in the climate panel to deal with this quickly.</div>
+        <div class="cblock">
+          <h3 data-en="Button 1 (Orange) — Rear Window & Mirror Heater" data-ar="زرار 1 (برتقالي) — سخّان الزجاج الخلفي والمرايات">Button 1 (Orange) — Rear Window &amp; Mirror Heater</h3>
+          <ul class="feat-list">
+            <li data-en="Located in the climate panel next to the temperature control buttons" data-ar="موجود في لوحة التكييف جنب زرارات التحكم في درجة الحرارة">Located in the climate panel next to the temperature control buttons</li>
+            <li data-en="Activates real electric heating elements embedded in the rear glass — evaporates condensation and water" data-ar="يشغّل عناصر تسخين كهربائية حقيقية مدمجة في الزجاج الخلفي — يبخّر التكثّف والماء">Activates real electric heating elements embedded in the rear glass — evaporates condensation and water</li>
+            <li data-en="Also heats the side mirrors — clears water and fog from the areas you look through to see behind you" data-ar="يسخّن المرايا الجانبية أيضاً — يزيل الماء والبخار من المناطق التي تنظر منها خلفك">Also heats the side mirrors — clears water and fog from the areas you look through to see behind you</li>
+            <li data-en="Works independently of the A/C — effective even with engine just started" data-ar="يعمل بشكل مستقل عن التكييف — فعّال حتى بمجرد تشغيل المحرك">Works independently of the A/C — effective even with engine just started</li>
+          </ul>
+        </div>
+        <div class="cblock">
+          <h3 data-en="Button 2 (Green) — Front Windscreen Defroster" data-ar="زرار 2 (أخضر) — موزّع الهواء للزجاج الأمامي">Button 2 (Green) — Front Windscreen Defroster</h3>
+          <ul class="feat-list">
+            <li data-en="Redirects the A/C air vents (top of dashboard) toward the front windscreen" data-ar="يوجّه فتحات التكييف (أعلى التابلوه) ناحية الزجاج الأمامي">Redirects the A/C air vents (top of dashboard) toward the front windscreen</li>
+            <li data-en="Also directs air to the side windows — the narrow areas beside the side mirrors that are hard to see" data-ar="يوجّه الهواء أيضاً للزجاج الجانبي — المناطق الضيقة بجانب المرايات الصعب رؤيتها">Also directs air to the side windows — the narrow areas beside the side mirrors</li>
+            <li data-en="For best results: set A/C temperature to medium-warm (halfway between middle and hot) before pressing" data-ar="للحصول على أفضل نتيجة: اضبط درجة حرارة التكييف بين النص والسخن قبل الضغط على الزرار">For best results: set A/C temperature to medium-warm (halfway between middle and hot) before pressing</li>
+            <li data-en="Warm air is far more effective at clearing fog than cold air" data-ar="الهواء الدافئ أكثر فاعلية بكثير من الهواء البارد في إزالة الضباب">Warm air is far more effective at clearing fog than cold air</li>
+          </ul>
+        </div>
+        <div class="hbox tip" data-en="💡 Rainy day routine: Press Button 1 (rear heater + mirrors) first. Then press Button 2 and set temperature to medium-warm. Visibility clears in under 2 minutes." data-ar="💡 روتين يوم المطر: اضغط الزرار 1 (سخّان الخلفي + المرايات) أولاً. ثم اضغط الزرار 2 واضبط درجة الحرارة على دافئ. ستتضح رؤيتك في أقل من دقيقتين.">💡 Rainy day routine: Press Button 1 (rear heater + mirrors) first. Then press Button 2 and set temperature to medium-warm. Visibility clears in under 2 minutes.</div>
+      </div>
+
     </div>
   </div>
 </div>
@@ -584,13 +712,12 @@ nav {
   <div class="section">
     <div class="sec-title" data-en="AIRBAGS – PASSIVE SAFETY" data-ar="الوسائد الهوائية – السلامة السلبية">AIRBAGS – PASSIVE SAFETY</div>
     <div class="cblock" style="margin-bottom:24px">
-      <h3 data-en="6-Airbag System" data-ar="نظام 6 وسائد هوائية">6-Airbag System</h3>
+      <h3 data-en="4-Airbag System" data-ar="نظام 4 وسائد هوائية">4-Airbag System</h3>
       <ul class="feat-list">
         <li data-en="2 Front Airbags – deploy in frontal collisions to protect driver and front passenger" data-ar="2 وسادة هوائية أمامية – تنتشر في الاصطدامات الأمامية لحماية السائق والراكب الأمامي">2 Front Airbags – deploy in frontal collisions to protect driver and front passenger</li>
-        <li data-en="2 Side Airbags – protect the torso in side-impact crashes" data-ar="2 وسادة هوائية جانبية – تحمي الجذع في الاصطدامات الجانبية">2 Side Airbags – protect the torso in side-impact crashes</li>
-        <li data-en="2 Curtain Airbags – deploy from the roofline to protect heads on both rows" data-ar="2 وسادة هوائية ستائرية – تنتشر من سقف السيارة لحماية الرؤوس في الصفين">2 Curtain Airbags – deploy from the roofline to protect heads on both rows</li>
+        <li data-en="2 Side Airbags – protect the torso in side-impact crashes for driver and front passenger" data-ar="2 وسادة هوائية جانبية – تحمي الجذع في الاصطدامات الجانبية للسائق والراكب الأمامي">2 Side Airbags – protect the torso in side-impact crashes for driver and front passenger</li>
       </ul>
-      <div class="hbox alert" style="margin-top:12px" data-en="🚨 Never sit a child in the front seat if the passenger airbag is active. Seat children in the rear with ISOFIX child seats." data-ar="🚨 لا تُجلس طفلاً في المقعد الأمامي إذا كانت الوسادة الهوائية للمقعد الأمامي نشطة. أجلس الأطفال في الخلف مع مقاعد ISOFIX.">🚨 Never sit a child in the front seat if the passenger airbag is active. Seat children in the rear with ISOFIX child seats.</div>
+      <div class="hbox alert" style="margin-top:12px" data-en="🚨 Never sit a child in the front seat if the passenger airbag is active. Seat children in the rear with appropriate child seats." data-ar="🚨 لا تُجلس طفلاً في المقعد الأمامي إذا كانت الوسادة الهوائية للمقعد الأمامي نشطة. أجلس الأطفال في الخلف مع مقاعد أطفال مناسبة.">🚨 Never sit a child in the front seat if the passenger airbag is active. Seat children in the rear with appropriate child seats.</div>
     </div>
 
     <div class="sec-title" data-en="ACTIVE SAFETY SYSTEMS" data-ar="أنظمة السلامة الفعّالة">ACTIVE SAFETY SYSTEMS</div>
@@ -791,85 +918,206 @@ nav {
     <p class="hero-sub" data-en="Service intervals and care tips for your Soueast S05" data-ar="مواعيد الصيانة ونصائح العناية بسيارتك Soueast S05">Service intervals and care tips for your Soueast S05</p>
   </div>
   <div class="section">
+    <div class="hbox info" data-en="ℹ️ Official Soueast S05 maintenance schedule from Maneast (authorized dealer). R = Replace | I = Inspect, clean, adjust or replace if necessary. Prices exclude tax & VAT." data-ar="ℹ️ جدول الصيانة الرسمي للـ S05 من مانيست (الوكيل المعتمد). R = استبدال | I = فحص وتنظيف وضبط أو استبدال عند الحاجة. الأسعار لا تشمل الضريبة.">ℹ️ Official Soueast S05 maintenance schedule from Maneast. R = Replace | I = Inspect / clean / adjust or replace if necessary. Prices exclude tax &amp; VAT.</div>
+
     <div class="sec-title" data-en="SERVICE SCHEDULE" data-ar="جدول الصيانة">SERVICE SCHEDULE</div>
     <div style="margin-bottom:28px">
       <div class="maint-row">
         <div class="maint-icon">🛢️</div>
         <div class="maint-info">
-          <div class="maint-title" data-en="Engine Oil & Filter Change" data-ar="تغيير زيت وفلتر المحرك">Engine Oil & Filter Change</div>
-          <div class="maint-desc" data-en="Use 5W-30 or 5W-40 fully synthetic oil. Change the oil filter at the same time." data-ar="استخدم زيت اصطناعي بالكامل 5W-30 أو 5W-40. غيّر فلتر الزيت في نفس الوقت.">Use 5W-30 or 5W-40 fully synthetic oil. Change the oil filter at the same time.</div>
+          <div class="maint-title" data-en="Engine Oil 5W-30 (5.0L) & Filter" data-ar="زيت المحرك 5W-30 (5 لتر) وفلتر الزيت">Engine Oil 5W-30 (5.0L) &amp; Filter</div>
+          <div class="maint-desc" data-en="Replace at every service — use fully synthetic 5W-30. Change the oil filter at the same time every time." data-ar="يُستبدل في كل صيانة — استخدم زيتاً اصطناعياً بالكامل 5W-30. غيّر فلتر الزيت في كل مرة.">Replace at every service — fully synthetic 5W-30. Always change the filter at the same time.</div>
         </div>
-        <div class="maint-interval" data-en="Every 7,500 km" data-ar="كل 7,500 كم">Every 7,500 km</div>
-      </div>
-      <div class="maint-row">
-        <div class="maint-icon">🌬️</div>
-        <div class="maint-info">
-          <div class="maint-title" data-en="Air Filter (Engine)" data-ar="فلتر الهواء (المحرك)">Air Filter (Engine)</div>
-          <div class="maint-desc" data-en="Inspect at 20,000 km, replace if dirty. More frequent in dusty environments (Egypt)." data-ar="افحص عند 20,000 كم، استبدل إذا كان متسخاً. أكثر تكراراً في البيئات المغبّرة (مصر).">Inspect at 20,000 km, replace if dirty. More frequent in dusty environments.</div>
-        </div>
-        <div class="maint-interval" data-en="Every 20,000–30,000 km" data-ar="كل 20,000–30,000 كم">Every 20,000–30,000 km</div>
-      </div>
-      <div class="maint-row">
-        <div class="maint-icon">🧹</div>
-        <div class="maint-info">
-          <div class="maint-title" data-en="Cabin Air Filter (A/C Filter)" data-ar="فلتر هواء المقصورة (فلتر التكييف)">Cabin Air Filter (A/C Filter)</div>
-          <div class="maint-desc" data-en="Filters dust and pollen entering the cabin. Essential to replace in dusty cities for good A/C performance." data-ar="يرشّح الغبار وحبوب اللقاح الداخلة للمقصورة. ضروري استبداله في المدن المغبّرة لأداء تكييف جيد.">Filters dust and pollen entering the cabin. Essential to replace in dusty cities.</div>
-        </div>
-        <div class="maint-interval" data-en="Every 10,000–15,000 km" data-ar="كل 10,000–15,000 كم">Every 10,000–15,000 km</div>
+        <div class="maint-interval" data-en="Every 10,000 km" data-ar="كل 10,000 كم">Every 10,000 km</div>
       </div>
       <div class="maint-row">
         <div class="maint-icon">⚡</div>
         <div class="maint-info">
           <div class="maint-title" data-en="Spark Plugs" data-ar="شمعات الإشعال">Spark Plugs</div>
-          <div class="maint-desc" data-en="Iridium or platinum plugs. A good set lasts much longer than standard copper plugs." data-ar="شمعات إيريديوم أو بلاتينوم. المجموعة الجيدة تدوم أطول بكثير من الشمعات النحاسية العادية.">Iridium or platinum plugs. A good set lasts much longer than standard copper plugs.</div>
+          <div class="maint-desc" data-en="Inspect every 20,000 km. Replace at 30,000 km and 60,000 km." data-ar="فحص كل 20,000 كم. استبدال عند 30,000 كم و60,000 كم.">Inspect every 20,000 km. Replace at 30,000 km and 60,000 km.</div>
         </div>
-        <div class="maint-interval" data-en="Every 60,000 km" data-ar="كل 60,000 كم">Every 60,000 km</div>
+        <div class="maint-interval" data-en="Inspect 20k / Replace 30k & 60k km" data-ar="فحص 20k / استبدال 30k و60k كم">Inspect 20k / Replace 30k &amp; 60k km</div>
+      </div>
+      <div class="maint-row">
+        <div class="maint-icon">🌬️</div>
+        <div class="maint-info">
+          <div class="maint-title" data-en="Air Filter (Engine)" data-ar="فلتر الهواء (المحرك)">Air Filter (Engine)</div>
+          <div class="maint-desc" data-en="Inspect every 20,000 km. Replace at 30,000 km and 60,000 km. More frequent in dusty environments." data-ar="فحص كل 20,000 كم. استبدال عند 30,000 كم و60,000 كم. أكثر تكراراً في البيئات المغبّرة.">Inspect every 20,000 km. Replace at 30,000 km and 60,000 km.</div>
+        </div>
+        <div class="maint-interval" data-en="Inspect 20k / Replace 30k & 60k km" data-ar="فحص 20k / استبدال 30k و60k كم">Inspect 20k / Replace 30k &amp; 60k km</div>
+      </div>
+      <div class="maint-row">
+        <div class="maint-icon">🧹</div>
+        <div class="maint-info">
+          <div class="maint-title" data-en="Cabin Air Filter (A/C Filter)" data-ar="فلتر هواء المقصورة (فلتر التكييف)">Cabin Air Filter (A/C Filter)</div>
+          <div class="maint-desc" data-en="Inspect every 10,000 km. Replace at 20,000 km and 40,000 km. In dusty Egypt, inspect every 5,000 km." data-ar="فحص كل 10,000 كم. استبدال عند 20,000 كم و40,000 كم. في مصر الغبّارة افحصه كل 5,000 كم.">Inspect every 10,000 km. Replace at 20,000 km and 40,000 km. In dusty conditions, inspect every 5,000 km.</div>
+        </div>
+        <div class="maint-interval" data-en="Inspect 10k / Replace 20k & 40k km" data-ar="فحص 10k / استبدال 20k و40k كم">Inspect 10k / Replace 20k &amp; 40k km</div>
       </div>
       <div class="maint-row">
         <div class="maint-icon">🔴</div>
         <div class="maint-info">
           <div class="maint-title" data-en="Brake Fluid" data-ar="سائل الفرامل">Brake Fluid</div>
-          <div class="maint-desc" data-en="DOT 4 brake fluid. Brake fluid absorbs moisture over time and must be flushed regularly to maintain braking performance." data-ar="سائل فرامل DOT 4. يمتص سائل الفرامل الرطوبة بمرور الوقت ويجب تصريفه بانتظام للحفاظ على أداء الفرامل.">DOT 4 brake fluid. Must be flushed regularly to maintain braking performance.</div>
+          <div class="maint-desc" data-en="Inspect every service. Replace at 60,000 km. Brake fluid absorbs moisture over time — must be changed to maintain safe braking." data-ar="فحص في كل صيانة. استبدال عند 60,000 كم. سائل الفرامل يمتص الرطوبة ويجب تغييره للحفاظ على أداء الفرامل.">Inspect every service. Replace at 60,000 km. Absorbs moisture over time.</div>
         </div>
-        <div class="maint-interval" data-en="Every 2 years or 40,000 km" data-ar="كل سنتين أو 40,000 كم">Every 2 years or 40,000 km</div>
+        <div class="maint-interval" data-en="Inspect every 10k / Replace at 60,000 km" data-ar="فحص كل 10k / استبدال عند 60,000 كم">Inspect 10k / Replace at 60,000 km</div>
+      </div>
+      <div class="maint-row">
+        <div class="maint-icon">⚙️</div>
+        <div class="maint-info">
+          <div class="maint-title" data-en="Gearbox Oil (DCT)" data-ar="زيت ناقل الحركة (DCT)">Gearbox Oil (DCT)</div>
+          <div class="maint-desc" data-en="Inspect every 10,000 km. Replace at 50,000 km. Important for DCT longevity — use only manufacturer-specified fluid." data-ar="فحص كل 10,000 كم. استبدال عند 50,000 كم. مهم لطول عمر الـ DCT — استخدم السائل المحدد من الشركة فقط.">Inspect every 10,000 km. Replace at 50,000 km — use only manufacturer-specified fluid.</div>
+        </div>
+        <div class="maint-interval" data-en="Inspect 10k / Replace at 50,000 km" data-ar="فحص 10k / استبدال عند 50,000 كم">Inspect 10k / Replace at 50,000 km</div>
+      </div>
+      <div class="maint-row">
+        <div class="maint-icon">🔧</div>
+        <div class="maint-info">
+          <div class="maint-title" data-en="Gearbox Filter (DCT)" data-ar="فلتر ناقل الحركة (DCT)">Gearbox Filter (DCT)</div>
+          <div class="maint-desc" data-en="Inspect every 10,000 km. Replace at 50,000 km alongside the gearbox oil change." data-ar="فحص كل 10,000 كم. استبدال عند 50,000 كم مع تغيير زيت ناقل الحركة.">Inspect every 10,000 km. Replace at 50,000 km alongside the gearbox oil change.</div>
+        </div>
+        <div class="maint-interval" data-en="Inspect 10k / Replace at 50,000 km" data-ar="فحص 10k / استبدال عند 50,000 كم">Inspect 10k / Replace at 50,000 km</div>
+      </div>
+      <div class="maint-row">
+        <div class="maint-icon">🔩</div>
+        <div class="maint-info">
+          <div class="maint-title" data-en="Accessory Belt" data-ar="سير المجموعة">Accessory Belt</div>
+          <div class="maint-desc" data-en="Inspect every 10,000 km for cracks or wear. Replace at 60,000 km." data-ar="فحص كل 10,000 كم للكشف عن تشققات أو تآكل. استبدال عند 60,000 كم.">Inspect every 10,000 km for cracks or wear. Replace at 60,000 km.</div>
+        </div>
+        <div class="maint-interval" data-en="Inspect 10k / Replace at 60,000 km" data-ar="فحص 10k / استبدال عند 60,000 كم">Inspect 10k / Replace at 60,000 km</div>
+      </div>
+      <div class="maint-row">
+        <div class="maint-icon">🪟</div>
+        <div class="maint-info">
+          <div class="maint-title" data-en="Wiper Blades (Front & Rear)" data-ar="شفرات المساحات (أمامية وخلفية)">Wiper Blades (Front &amp; Rear)</div>
+          <div class="maint-desc" data-en="Inspect every 10,000 km. Replace when blades start to streak or squeak — typically every 12–18 months." data-ar="فحص كل 10,000 كم. استبدل عند ظهور خطوط أو صرير — عادةً كل 12–18 شهراً.">Inspect every 10,000 km. Replace when blades streak or squeak.</div>
+        </div>
+        <div class="maint-interval" data-en="Inspect every 10,000 km" data-ar="فحص كل 10,000 كم">Inspect every 10,000 km</div>
       </div>
       <div class="maint-row">
         <div class="maint-icon">🌡️</div>
         <div class="maint-info">
-          <div class="maint-title" data-en="Coolant / Antifreeze" data-ar="سائل التبريد / مانع التجمد">Coolant / Antifreeze</div>
-          <div class="maint-desc" data-en="Keep at the correct level between MIN and MAX marks. Top up with distilled water + coolant mix only." data-ar="حافظ على المستوى الصحيح بين علامتي MIN وMAX. أضف مزيج ماء مقطر + سائل تبريد فقط.">Keep at the correct level. Top up with distilled water + coolant mix only.</div>
+          <div class="maint-title" data-en="Coolant Fluid" data-ar="سائل التبريد">Coolant Fluid</div>
+          <div class="maint-desc" data-en="Inspect level from 1,000 km. Replace at 40,000 km. Top up only with distilled water + approved coolant mix." data-ar="فحص المستوى من 1,000 كم. استبدال عند 40,000 كم. أضف مزيج ماء مقطر + سائل تبريد معتمد فقط.">Inspect from 1,000 km. Replace at 40,000 km. Top up with distilled water + coolant mix only.</div>
         </div>
-        <div class="maint-interval" data-en="Check monthly / Replace at 60,000 km" data-ar="افحص شهرياً / استبدل عند 60,000 كم">Check monthly / Replace at 60,000 km</div>
+        <div class="maint-interval" data-en="Inspect 1k / Replace at 40,000 km" data-ar="فحص من 1k / استبدال عند 40,000 كم">Inspect 1k / Replace at 40,000 km</div>
+      </div>
+      <div class="maint-row">
+        <div class="maint-icon">💧</div>
+        <div class="maint-info">
+          <div class="maint-title" data-en="Windscreen Washer Fluid" data-ar="سائل المساحات">Windscreen Washer Fluid</div>
+          <div class="maint-desc" data-en="Check every 10,000 km. Top up as needed — especially in dusty areas where wipers are used frequently." data-ar="فحص كل 10,000 كم. أضف عند الحاجة — خاصةً في المناطق المغبّرة حيث تُستخدم المساحات كثيراً.">Check every 10,000 km. Top up as needed — especially in dusty areas.</div>
+        </div>
+        <div class="maint-interval" data-en="Check every 10,000 km" data-ar="فحص كل 10,000 كم">Check every 10,000 km</div>
+      </div>
+      <div class="maint-row">
+        <div class="maint-icon">🔩</div>
+        <div class="maint-info">
+          <div class="maint-title" data-en="Tyre Rotation" data-ar="تدوير الإطارات">Tyre Rotation</div>
+          <div class="maint-desc" data-en="X = Cross rotation every 10,000 km. L = Direction rotation every 20,000 km. Extends tyre life significantly." data-ar="X = تدوير متقاطع كل 10,000 كم. L = تدوير اتجاهي كل 20,000 كم. يُطيل عمر الإطارات بشكل ملحوظ.">X = Cross rotation every 10,000 km. L = Direction rotation every 20,000 km.</div>
+        </div>
+        <div class="maint-interval" data-en="Every 10,000 km" data-ar="كل 10,000 كم">Every 10,000 km</div>
+      </div>
+      <div class="maint-row">
+        <div class="maint-icon">😮‍💨</div>
+        <div class="maint-info">
+          <div class="maint-title" data-en="Shock Absorbers" data-ar="ممتصات الصدمات">Shock Absorbers</div>
+          <div class="maint-desc" data-en="Inspect every 10,000 km for leaks or unusual bouncing. Replace in pairs if worn." data-ar="فحص كل 10,000 كم للكشف عن تسريبات أو ارتداد غير طبيعي. استبدل على شكل أزواج عند التآكل.">Inspect every 10,000 km for leaks or unusual bouncing. Replace in pairs if worn.</div>
+        </div>
+        <div class="maint-interval" data-en="Inspect every 10,000 km" data-ar="فحص كل 10,000 كم">Inspect every 10,000 km</div>
       </div>
       <div class="maint-row">
         <div class="maint-icon">🔋</div>
         <div class="maint-info">
           <div class="maint-title" data-en="Car Battery" data-ar="بطارية السيارة">Car Battery</div>
-          <div class="maint-desc" data-en="Standard 12V lead-acid battery. Heat shortens battery life. Have it tested annually after year 2." data-ar="بطارية قياسية 12V حمض الرصاص. الحرارة تُقصّر عمر البطارية. اختبرها سنوياً بعد السنة الثانية.">Standard 12V lead-acid battery. Heat shortens battery life. Have it tested annually after year 2.</div>
+          <div class="maint-desc" data-en="Standard 12V battery. Egypt's heat shortens battery life. Have it tested annually after year 2. Signs of weakness: slow engine crank, dim lights." data-ar="بطارية 12V قياسية. حرارة مصر تُقصّر عمرها. اختبرها سنوياً بعد السنة الثانية. علامات الضعف: تشغيل بطيء للمحرك، مصابيح خافتة.">Standard 12V battery. Heat shortens life. Test annually after year 2. Signs of weakness: slow crank, dim lights.</div>
         </div>
         <div class="maint-interval" data-en="Replace every 3–4 years" data-ar="استبدل كل 3–4 سنوات">Replace every 3–4 years</div>
       </div>
-      <div class="maint-row">
-        <div class="maint-icon">🔩</div>
-        <div class="maint-info">
-          <div class="maint-title" data-en="Tyre Rotation & Inspection" data-ar="تدوير وفحص الإطارات">Tyre Rotation & Inspection</div>
-          <div class="maint-desc" data-en="Rotate front and rear tyres to extend life. Check tread depth and sidewall condition. Minimum tread: 1.6mm." data-ar="دوّر الإطارات الأمامية والخلفية لإطالة عمرها. افحص عمق المداس وحالة الجانب. الحد الأدنى للمداس: 1.6 ملم.">Rotate front and rear tyres to extend life. Minimum tread depth: 1.6mm.</div>
-        </div>
-        <div class="maint-interval" data-en="Every 10,000–15,000 km" data-ar="كل 10,000–15,000 كم">Every 10,000–15,000 km</div>
+    </div>
+
+    <div class="sec-title" data-en="OFFICIAL SERVICE PRICES (EGP, excl. VAT)" data-ar="أسعار الصيانة الرسمية (جنيه مصري، بدون ضريبة)">OFFICIAL SERVICE PRICES (EGP, excl. VAT)</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-bottom:28px">
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center">
+        <div style="font-size:11px;color:var(--muted);font-weight:700;letter-spacing:1px;margin-bottom:6px">1,000 KM</div>
+        <div style="font-size:22px;font-weight:800;color:var(--accent);font-family:'IBM Plex Mono',monospace">4,180</div>
+        <div style="font-size:11px;color:var(--dim);margin-top:4px">EGP</div>
       </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center">
+        <div style="font-size:11px;color:var(--muted);font-weight:700;letter-spacing:1px;margin-bottom:6px">10,000 KM</div>
+        <div style="font-size:22px;font-weight:800;color:var(--accent);font-family:'IBM Plex Mono',monospace">4,180</div>
+        <div style="font-size:11px;color:var(--dim);margin-top:4px">EGP</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center">
+        <div style="font-size:11px;color:var(--muted);font-weight:700;letter-spacing:1px;margin-bottom:6px">20,000 KM</div>
+        <div style="font-size:22px;font-weight:800;color:var(--accent);font-family:'IBM Plex Mono',monospace">6,483</div>
+        <div style="font-size:11px;color:var(--dim);margin-top:4px">EGP</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center">
+        <div style="font-size:11px;color:var(--muted);font-weight:700;letter-spacing:1px;margin-bottom:6px">30,000 KM</div>
+        <div style="font-size:22px;font-weight:800;color:var(--accent);font-family:'IBM Plex Mono',monospace">6,592</div>
+        <div style="font-size:11px;color:var(--dim);margin-top:4px">EGP</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center">
+        <div style="font-size:11px;color:var(--muted);font-weight:700;letter-spacing:1px;margin-bottom:6px">40,000 KM</div>
+        <div style="font-size:22px;font-weight:800;color:var(--accent);font-family:'IBM Plex Mono',monospace">8,213</div>
+        <div style="font-size:11px;color:var(--dim);margin-top:4px">EGP</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center">
+        <div style="font-size:11px;color:var(--muted);font-weight:700;letter-spacing:1px;margin-bottom:6px">50,000 KM</div>
+        <div style="font-size:22px;font-weight:800;color:var(--accent);font-family:'IBM Plex Mono',monospace">11,731</div>
+        <div style="font-size:11px;color:var(--dim);margin-top:4px">EGP</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center">
+        <div style="font-size:11px;color:var(--muted);font-weight:700;letter-spacing:1px;margin-bottom:6px">60,000 KM</div>
+        <div style="font-size:22px;font-weight:800;color:var(--accent);font-family:'IBM Plex Mono',monospace">12,086</div>
+        <div style="font-size:11px;color:var(--dim);margin-top:4px">EGP</div>
+      </div>
+    </div>
+
+    <div class="sec-title" data-en="TYRE PRESSURE GUIDE" data-ar="دليل ضغط الإطارات">TYRE PRESSURE GUIDE</div>
+    <div class="cblock" style="margin-bottom:24px">
+      <h3 data-en="Recommended Pressure — 215/60 R17" data-ar="الضغط الموصى به — 215/60 R17">Recommended Pressure — 215/60 R17</h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px">
+        <div style="background:rgba(249,115,22,.07);border:1px solid rgba(249,115,22,.25);border-radius:10px;padding:16px;text-align:center">
+          <div style="font-size:32px;font-weight:800;color:var(--accent);font-family:'IBM Plex Mono',monospace">30–31</div>
+          <div style="font-size:13px;color:var(--dim);margin-top:4px">PSI</div>
+        </div>
+        <div style="background:rgba(56,189,248,.07);border:1px solid rgba(56,189,248,.25);border-radius:10px;padding:16px;text-align:center">
+          <div style="font-size:32px;font-weight:800;color:var(--blue);font-family:'IBM Plex Mono',monospace">2.1</div>
+          <div style="font-size:13px;color:var(--dim);margin-top:4px">Bar</div>
+        </div>
+      </div>
+      <ul class="feat-list">
+        <li data-en="Always check tyre pressure when tyres are COLD (before driving or after the car has been parked for 3+ hours)" data-ar="افحص ضغط الإطارات دائماً وهي بارده (قبل القيادة أو بعد ما وقفت السيارة 3 ساعات أو أكثر)">Always check tyre pressure when tyres are COLD (before driving or after 3+ hours parked)</li>
+        <li data-en="Pressure naturally rises when tyres heat up from driving — do not deflate hot tyres" data-ar="الضغط يرتفع طبيعياً عندما تسخن الإطارات من القيادة — لا تفرّغ الهواء من الإطارات الساخنة">Pressure naturally rises when tyres heat up — do not deflate hot tyres</li>
+        <li data-en="Under-inflated tyres increase fuel consumption by up to 3% and cause faster wear on the tyre edges" data-ar="الإطارات قليلة الضغط تزيد استهلاك الوقود حتى 3% وتتسبب في تآكل أسرع لحواف الإطار">Under-inflated tyres increase fuel consumption by up to 3% and cause faster edge wear</li>
+        <li data-en="Over-inflated tyres cause faster wear on the centre of the tread and reduce grip" data-ar="الإطارات زائدة الضغط تتسبب في تآكل أسرع لمركز المداس وتقلل الإمساك بالطريق">Over-inflated tyres cause faster centre wear and reduce grip</li>
+      </ul>
+    </div>
+
+    <div class="sec-title" data-en="HOW TO RESET THE SERVICE REMINDER" data-ar="كيفية إعادة تعيين تذكير الصيانة">HOW TO RESET THE SERVICE REMINDER</div>
+    <div class="cblock" style="margin-bottom:24px">
+      <h3 data-en="When the service warning light appears — steps to reset it yourself" data-ar="عند ظهور لمبة تحذير الصيانة — خطوات إعادة التعيين بنفسك">When the service warning light appears — steps to reset it yourself</h3>
+      <ul class="feat-list">
+        <li data-en="Step 1: Car is OFF and screens are dark — press the Start button ONCE without pressing the brake pedal (just to power the screens)" data-ar="الخطوة 1: العربية مطفية والشاشات مظلمة — اضغط زرار Start مرة واحدة بدون الضغط على دواسة الفرامل (فقط لتشغيل الشاشات)"><strong data-en="Step 1:" data-ar="الخطوة 1:">Step 1:</strong> <span data-en="Car OFF and screens dark — press Start ONCE without pressing the brake pedal (to power on the screens only)" data-ar="العربية مطفية والشاشات مظلمة — اضغط Start مرة واحدة بدون دواسة الفرامل (لتشغيل الشاشات فقط)">Car OFF and screens dark → press Start ONCE without pressing the brake pedal</span></li>
+        <li data-en="Step 2: Without pressing any pedals — press and hold Start + OK button on the steering wheel together for ~15 seconds until warning indicators appear on the instrument cluster" data-ar="الخطوة 2: بدون الضغط على الدواسات — اضغط باستمرار على Start + زرار OK في الطارة معاً لمدة 15 ثانية تقريباً حتى تظهر المؤشرات على شاشة العدادات"><strong data-en="Step 2:" data-ar="الخطوة 2:">Step 2:</strong> <span data-en="Without pressing any pedals — hold Start + OK button on steering wheel together for ~15 seconds until indicators appear on the cluster" data-ar="بدون الضغط على الدواسات — اضغط مع الاستمرار Start + زرار OK على المقود معاً لمدة ~15 ثانية حتى تظهر المؤشرات على شاشة العدادات">Hold Start + OK button on steering wheel together for ~15 seconds until indicators appear on the cluster</span></li>
+        <li data-en="Step 3: Start the car normally — the service and maintenance warning lights will be gone" data-ar="الخطوة 3: شغّل العربية عادي — هتلاقي علامة التحذير والصيانة اختفوا"><strong data-en="Step 3:" data-ar="الخطوة 3:">Step 3:</strong> <span data-en="Start the car normally — the service and maintenance warning lights will have disappeared" data-ar="شغّل العربية عادي — ستجد علامة التحذير والصيانة قد اختفتا">Start the car normally — the service and maintenance warning lights will be gone</span></li>
+      </ul>
+      <div class="hbox warn" data-en="⚠️ Only reset the service reminder AFTER the actual service has been done. Resetting without performing the service means you'll lose track of when maintenance is actually due." data-ar="⚠️ أعد التعيين فقط بعد إجراء الصيانة الفعلية. إعادة التعيين بدون إجراء الصيانة تعني أنك ستفقد تتبع موعد الصيانة الفعلي.">⚠️ Only reset the service reminder AFTER the actual service has been done.</div>
     </div>
 
     <div class="sec-title" data-en="WEEKLY CHECKS YOU SHOULD DO" data-ar="فحوصات أسبوعية يجب عليك إجراؤها">WEEKLY CHECKS YOU SHOULD DO</div>
     <div class="cblock">
       <ul class="feat-list">
-        <li data-en="Check tyre pressure when tyres are cold (not after driving). See the sticker inside your driver door for the recommended PSI." data-ar="افحص ضغط الإطارات عندما تكون باردة (ليس بعد القيادة). انظر الملصق داخل باب السائق للضغط الموصى به بالـ PSI.">Check tyre pressure when tyres are cold. See the sticker inside your driver door.</li>
+        <li data-en="Check tyre pressure when cold — recommended 30–31 PSI (2.1 bar) for 215/60 R17" data-ar="افحص ضغط الإطارات وهي باردة — الموصى به 30–31 PSI (2.1 بار) لمقاس 215/60 R17">Check tyre pressure when cold — recommended 30–31 PSI (2.1 bar) for 215/60 R17</li>
         <li data-en="Check engine oil level via the dipstick — oil should be between MIN and MAX" data-ar="افحص مستوى زيت المحرك عبر قضيب القياس — يجب أن يكون الزيت بين MIN وMAX">Check engine oil level via the dipstick — oil should be between MIN and MAX</li>
-        <li data-en="Check windshield washer fluid level — especially important in dusty Egypt" data-ar="افحص مستوى سائل غسيل الزجاج — مهم بشكل خاص في مصر الغبّارة">Check windshield washer fluid level — especially important in dusty environments</li>
+        <li data-en="Check windshield washer fluid level — especially important in dusty Egypt" data-ar="افحص مستوى سائل غسيل الزجاج — مهم بشكل خاص في مصر الغبّارة">Check windshield washer fluid level — especially important in dusty conditions</li>
         <li data-en="Inspect all lights (headlights, indicators, brake lights) for any blown bulbs" data-ar="افحص جميع الأضواء (المصابيح الأمامية، الإشارات، مصابيح الفرامل) لأي مصباح محترق">Inspect all lights for any blown bulbs</li>
         <li data-en="Visually inspect tyres for any cuts, bulges, or foreign objects" data-ar="افحص الإطارات بصرياً للكشف عن أي قطوع أو نتوءات أو أجسام غريبة">Visually inspect tyres for any cuts, bulges, or foreign objects</li>
       </ul>
     </div>
-    <div class="hbox tip" data-en="💡 Egypt's heat and dust are hard on cars. Change your cabin air filter every 10,000 km maximum, and always check coolant level in summer." data-ar="💡 الحرارة والغبار في مصر قاسيان على السيارات. غيّر فلتر هواء المقصورة كل 10,000 كم على الأكثر، وتحقق دائماً من مستوى سائل التبريد في الصيف.">💡 Egypt's heat and dust are hard on cars. Change your cabin air filter every 10,000 km maximum, and always check coolant level in summer.</div>
+    <div class="hbox tip" data-en="💡 Egypt's heat and dust are hard on cars. Change your cabin air filter every 10,000 km maximum, and always check coolant level in summer." data-ar="💡 الحرارة والغبار في مصر قاسيان على السيارات. غيّر فلتر هواء المقصورة كل 10,000 كم على الأكثر، وتحقق دائماً من مستوى سائل التبريد في الصيف.">💡 Egypt's heat and dust are hard on cars. Change your cabin air filter every 10,000 km, and always check coolant level in summer.</div>
   </div>
 </div>
 
@@ -881,31 +1129,55 @@ nav {
   <div class="hero" style="padding:40px 32px 36px">
     <div class="hero-badge" data-en="GET MORE FROM EVERY DRIVE" data-ar="استفد أكثر من كل رحلة">GET MORE FROM EVERY DRIVE</div>
     <h1 style="font-size:36px" data-en="Driving Tips" data-ar="نصائح القيادة">Driving Tips</h1>
-    <p class="hero-sub" data-en="Fuel saving, smooth driving, and getting the best out of the 1.5T CVT" data-ar="توفير الوقود والقيادة السلسة والاستفادة القصوى من المحرك 1.5T CVT">Fuel saving, smooth driving, and getting the best out of the 1.5T CVT</p>
+    <p class="hero-sub" data-en="Fuel saving, smooth driving, and getting the best out of the 1.5T DCT-6" data-ar="توفير الوقود والقيادة السلسة والاستفادة القصوى من محرك 1.5T وناقل DCT-6">Fuel saving, smooth driving, and getting the best out of the 1.5T DCT-6</p>
   </div>
   <div class="section">
     <div class="sec-title" data-en="FUEL SAVING TIPS" data-ar="نصائح توفير الوقود">FUEL SAVING TIPS</div>
     <div style="margin-bottom:28px">
-      <div class="tip-card"><div class="tip-num">1</div><div><div class="tip-title" data-en="Smooth Acceleration" data-ar="التسارع الناعم">Smooth Acceleration</div><div class="tip-body" data-en="The CVT transmission is designed for smooth, gradual acceleration. Avoid flooring the pedal from a standstill — it burns more fuel and adds stress to the transmission. Accelerate progressively." data-ar="ناقل الحركة CVT مصمم للتسارع الناعم والتدريجي. تجنب الضغط على دواسة الوقود بالكامل من الثبات — يحرق وقوداً أكثر ويُجهد ناقل الحركة. تسارع تدريجياً.">The CVT is designed for smooth acceleration. Avoid flooring the pedal from standstill. Accelerate progressively.</div></div></div>
-      <div class="tip-card"><div class="tip-num">2</div><div><div class="tip-title" data-en="Maintain Steady Highway Speed" data-ar="الحفاظ على سرعة ثابتة على الطريق السريع">Maintain Steady Highway Speed</div><div class="tip-body" data-en="On the highway, use Cruise Control at 100–110 km/h for maximum fuel efficiency. Constant speed changes waste fuel. The S05 is most efficient between 80–110 km/h." data-ar="على الطريق السريع، استخدم مثبت السرعة عند 100–110 كم/ساعة لأقصى كفاءة في الوقود. تغيرات السرعة المستمرة تهدر الوقود. السيارة S05 أكثر كفاءة بين 80–110 كم/ساعة.">Use Cruise Control at 100–110 km/h for maximum efficiency. The S05 is most fuel-efficient between 80–110 km/h.</div></div></div>
-      <div class="tip-card"><div class="tip-num">3</div><div><div class="tip-title" data-en="Coast to Slow Down" data-ar="استخدم التقصير للتباطؤ">Coast to Slow Down</div><div class="tip-body" data-en="When approaching a red light or slowing down, lift off the accelerator early and let the car coast. On a CVT, engine braking slows you down with near-zero fuel consumption." data-ar="عند الاقتراب من إشارة حمراء أو التباطؤ، ارفع قدمك عن دواسة الوقود مبكراً ودع السيارة تتباطأ. على ناقل CVT، يبطّئك فرامل المحرك باستهلاك وقود شبه صفري.">Lift off the accelerator early and let the car coast. CVT engine braking slows you down with near-zero fuel use.</div></div></div>
-      <div class="tip-card"><div class="tip-num">4</div><div><div class="tip-title" data-en="Tyre Pressure Matters" data-ar="ضغط الإطارات مهم">Tyre Pressure Matters</div><div class="tip-body" data-en="Under-inflated tyres create more rolling resistance and increase fuel consumption by up to 3%. Always maintain the recommended pressure — check the label on the driver door." data-ar="الإطارات قليلة الضغط تُنشئ مقاومة دحرجة أعلى وتزيد استهلاك الوقود بنسبة تصل إلى 3%. دائماً حافظ على الضغط الموصى به — تحقق من الملصق على باب السائق.">Under-inflated tyres increase fuel consumption by up to 3%. Maintain recommended pressure.</div></div></div>
-      <div class="tip-card"><div class="tip-num">5</div><div><div class="tip-title" data-en="A/C Smart Usage" data-ar="الاستخدام الذكي للتكييف">A/C Smart Usage</div><div class="tip-body" data-en="A/C adds load to the engine. At low speeds in traffic, consider rolling down windows instead. On highway speeds above 60 km/h, A/C is more efficient than open windows (aerodynamic drag)." data-ar="التكييف يُضيف حملاً على المحرك. بالسرعات المنخفضة في الازدحام، فكّر في فتح النوافذ بدلاً من ذلك. بالسرعات فوق 60 كم/ساعة، التكييف أكثر كفاءة من النوافذ المفتوحة.">At low speeds, consider windows down. At highway speeds above 60 km/h, A/C is more efficient than open windows.</div></div></div>
+      <div class="tip-card"><div class="tip-num">1</div><div><div class="tip-title" data-en="Smooth Acceleration" data-ar="التسارع الناعم">Smooth Acceleration</div><div class="tip-body" data-en="The 6-speed DCT is designed for smooth, progressive acceleration. Avoid flooring the pedal from a standstill — it forces the transmission to downshift aggressively, burning more fuel. Accelerate progressively." data-ar="ناقل DCT-6 مصمم للتسارع الناعم والتدريجي. تجنب الضغط على دواسة الوقود بالكامل من الثبات — يُجبر ناقل الحركة على التخفيض بشدة ويحرق وقوداً أكثر. تسارع تدريجياً.">The 6-speed DCT is designed for smooth, progressive acceleration. Avoid flooring the pedal from standstill. Accelerate progressively.</div></div></div>
+      <div class="tip-card"><div class="tip-num">2</div><div><div class="tip-title" data-en="Use ECO Mode for City Driving" data-ar="استخدم وضع ECO في المدينة">Use ECO Mode for City Driving</div><div class="tip-body" data-en="The S05 has three drive modes — Normal, Sport, and ECO. In city traffic, switch to ECO mode which softens throttle response and optimises gear shifts for lower fuel consumption. Ideal for Cairo traffic." data-ar="السيارة S05 مزودة بثلاثة أنماط قيادة — Normal وSport وECO. في ازدحام المدينة، استخدم وضع ECO الذي يُلطّف استجابة دواسة الوقود ويُحسّن تبديل التروس لتقليل استهلاك الوقود. مثالي لازدحام القاهرة.">Switch to ECO mode in city traffic — it softens throttle response and optimises gear shifts for lower fuel use. Ideal for Cairo traffic.</div></div></div>
+      <div class="tip-card"><div class="tip-num">3</div><div><div class="tip-title" data-en="Maintain Steady Highway Speed" data-ar="الحفاظ على سرعة ثابتة على الطريق السريع">Maintain Steady Highway Speed</div><div class="tip-body" data-en="On the highway, use Cruise Control at 100–110 km/h for maximum fuel efficiency. Constant speed changes waste fuel. The S05 is most efficient between 80–110 km/h." data-ar="على الطريق السريع، استخدم مثبت السرعة عند 100–110 كم/ساعة لأقصى كفاءة في الوقود. تغيرات السرعة المستمرة تهدر الوقود. السيارة S05 أكثر كفاءة بين 80–110 كم/ساعة.">Use Cruise Control at 100–110 km/h for maximum efficiency. The S05 is most fuel-efficient between 80–110 km/h.</div></div></div>
+      <div class="tip-card"><div class="tip-num">4</div><div><div class="tip-title" data-en="Coast to Slow Down" data-ar="استخدم التقصير للتباطؤ">Coast to Slow Down</div><div class="tip-body" data-en="When approaching a red light or slowing down, lift off the accelerator early and let the car coast. The DCT's engine braking slows you down with near-zero fuel consumption." data-ar="عند الاقتراب من إشارة حمراء أو التباطؤ، ارفع قدمك عن دواسة الوقود مبكراً ودع السيارة تتباطأ. فرامل المحرك في DCT تبطّئك باستهلاك وقود شبه صفري.">Lift off the accelerator early and let the car coast. DCT engine braking slows you down with near-zero fuel use.</div></div></div>
+      <div class="tip-card"><div class="tip-num">5</div><div><div class="tip-title" data-en="Tyre Pressure Matters" data-ar="ضغط الإطارات مهم">Tyre Pressure Matters</div><div class="tip-body" data-en="Under-inflated tyres create more rolling resistance and increase fuel consumption by up to 3%. Always maintain 30–31 PSI (2.1 bar) for the 215/60 R17 tyres." data-ar="الإطارات قليلة الضغط تُنشئ مقاومة دحرجة أعلى وتزيد استهلاك الوقود بنسبة تصل إلى 3%. دائماً حافظ على 30–31 PSI (2.1 بار) للإطارات 215/60 R17.">Under-inflated tyres increase fuel consumption by up to 3%. Maintain 30–31 PSI (2.1 bar) for the 215/60 R17 tyres.</div></div></div>
+      <div class="tip-card"><div class="tip-num">6</div><div><div class="tip-title" data-en="A/C Smart Usage" data-ar="الاستخدام الذكي للتكييف">A/C Smart Usage</div><div class="tip-body" data-en="A/C adds load to the engine. At low speeds in traffic, consider rolling down windows instead. On highway speeds above 60 km/h, A/C is more efficient than open windows (aerodynamic drag)." data-ar="التكييف يُضيف حملاً على المحرك. بالسرعات المنخفضة في الازدحام، فكّر في فتح النوافذ بدلاً من ذلك. بالسرعات فوق 60 كم/ساعة، التكييف أكثر كفاءة من النوافذ المفتوحة.">At low speeds, consider windows down. At highway speeds above 60 km/h, A/C is more efficient than open windows.</div></div></div>
     </div>
 
-    <div class="sec-title" data-en="CVT TRANSMISSION TIPS" data-ar="نصائح ناقل الحركة CVT">CVT TRANSMISSION TIPS</div>
+    <div class="sec-title" data-en="DRIVE MODES" data-ar="أنماط القيادة">DRIVE MODES</div>
     <div class="cblock" style="margin-bottom:24px">
-      <h3 data-en="Understanding Your CVT" data-ar="فهم ناقل CVT الخاص بك">Understanding Your CVT</h3>
-      <p data-en="The CVT (Continuously Variable Transmission) in the S05 has no fixed gears — it continuously adjusts the ratio for optimal engine efficiency. This is different from a regular automatic and requires a slightly different driving style." data-ar="ناقل CVT في S05 لا يحتوي على تروس ثابتة — يضبط باستمرار النسبة للكفاءة المثلى للمحرك. هذا يختلف عن ناقل أوتوماتيكي عادي ويتطلب أسلوب قيادة مختلف قليلاً.">The CVT has no fixed gears — it continuously adjusts the ratio for optimal efficiency. This is different from a regular automatic.</p>
-      <ul class="feat-list" style="margin-top:12px">
-        <li data-en="Never hold the engine at high revs for long — it strains the CVT belt" data-ar="لا تُبقِ المحرك على سرعات عالية لفترة طويلة — يُجهد حزام CVT">Never hold the engine at high revs for long — it strains the CVT belt</li>
-        <li data-en="The 'rubber band' effect (engine revving before acceleration) is normal for CVT — don't worry" data-ar="تأثير 'الحزامة المطاطية' (ارتفاع صوت المحرك قبل التسارع) طبيعي لـ CVT — لا تقلق">The 'rubber band' effect (engine revving before acceleration) is normal for CVT</li>
-        <li data-en="When towing or carrying heavy loads, the CVT works harder — give it time to cool down after" data-ar="عند السحب أو حمل أحمال ثقيلة، يعمل CVT بجهد أكبر — أعطه وقتاً للتبرد بعد ذلك">When carrying heavy loads, the CVT works harder — give it time to cool down after</li>
-        <li data-en="CVT fluid should be checked by a technician every 60,000–80,000 km" data-ar="يجب فحص سائل CVT من قِبل فني كل 60,000–80,000 كم">CVT fluid should be checked by a technician every 60,000–80,000 km</li>
+      <h3 data-en="Normal / Sport / ECO" data-ar="Normal / Sport / ECO">Normal / Sport / ECO</h3>
+      <ul class="feat-list">
+        <li data-en="Normal — balanced mode for everyday driving. Good blend of performance and fuel economy." data-ar="Normal — وضع متوازن للقيادة اليومية. مزيج جيد من الأداء وكفاءة الوقود."><strong>Normal</strong> — <span data-en="balanced mode for everyday driving. Good blend of performance and fuel economy." data-ar="وضع متوازن للقيادة اليومية. مزيج جيد من الأداء وكفاءة الوقود.">balanced mode for everyday driving. Good blend of performance and fuel economy.</span></li>
+        <li data-en="Sport — sharpens throttle response and holds gears longer for more spirited driving. Fuel consumption increases." data-ar="Sport — يُحدّ استجابة دواسة الوقود ويُمسك بالتروس أطول للقيادة الرياضية. يزيد استهلاك الوقود."><strong>Sport</strong> — <span data-en="sharpens throttle response and holds gears longer for more spirited driving. Fuel consumption increases." data-ar="يُحدّ استجابة دواسة الوقود ويُمسك بالتروس أطول للقيادة الرياضية. يزيد استهلاك الوقود.">sharpens throttle response and holds gears longer. Fuel consumption increases.</span></li>
+        <li data-en="ECO — softens throttle response and shifts up earlier for lowest fuel consumption. Best for city traffic and long commutes." data-ar="ECO — يُلطّف استجابة دواسة الوقود ويرفع التروس مبكراً لأقل استهلاك للوقود. الأفضل للازدحام وطرق السفر الطويلة."><strong>ECO</strong> — <span data-en="softens throttle response and shifts up earlier for lowest fuel consumption. Best for city traffic and long commutes." data-ar="يُلطّف استجابة دواسة الوقود ويرفع التروس مبكراً لأقل استهلاك للوقود. الأفضل للازدحام وطرق السفر الطويلة.">softens throttle and shifts up earlier for lowest fuel use. Best for city traffic and long commutes.</span></li>
       </ul>
     </div>
 
-    <div class="sec-title" data-en="CITY & TRAFFIC TIPS" data-ar="نصائح المدينة والازدحام">CITY & TRAFFIC TIPS</div>
+    <div class="sec-title" data-en="DCT TRANSMISSION TIPS" data-ar="نصائح ناقل الحركة DCT">DCT TRANSMISSION TIPS</div>
+    <div class="cblock" style="margin-bottom:24px">
+      <h3 data-en="Understanding Your 6-Speed DCT" data-ar="فهم ناقل DCT-6 الخاص بك">Understanding Your 6-Speed DCT</h3>
+      <p data-en="The DCT (Dual Clutch Transmission) in the S05 uses two separate clutches — one for odd gears (1,3,5) and one for even gears (2,4,6). This allows lightning-fast gear changes with no power interruption. It feels like an automatic but shifts faster and more efficiently." data-ar="ناقل DCT في S05 يستخدم قابضين منفصلين — أحدهما للتروس الفردية (1،3،5) والآخر للزوجية (2،4،6). هذا يتيح تبديل التروس بسرعة البرق بدون انقطاع في القوة. يشعر كالأوتوماتيكي لكن يبدّل أسرع وأكفأ.">The DCT uses two separate clutches for odd/even gears — lightning-fast shifts with no power interruption. Faster and more efficient than a regular automatic.</p>
+      <ul class="feat-list" style="margin-top:12px">
+        <li data-en="DCT may feel slightly jerky at very low speeds (e.g. parking lot manoeuvres) — this is normal behaviour" data-ar="ناقل DCT قد يشعر بتشنج خفيف عند السرعات البطيئة جداً (مثل المناورة في الجراج) — هذا سلوك طبيعي">DCT may feel slightly jerky at very low speeds (parking lot manoeuvres) — this is normal</li>
+        <li data-en="Never slip the clutch in traffic by holding the car on an incline using the accelerator instead of brakes — use Auto Hold instead" data-ar="لا تبقِ السيارة على منحدر بالضغط على دواسة الوقود بدل الفرامل — استخدم Auto Hold بدلاً من ذلك">Never hold the car on an incline using the accelerator — use Auto Hold instead</li>
+        <li data-en="DCT fluid should be changed at 50,000 km as per the official service schedule" data-ar="يجب تغيير سائل DCT عند 50,000 كم وفقاً لجدول الصيانة الرسمي">DCT fluid should be changed at 50,000 km as per the official service schedule</li>
+        <li data-en="In Sport mode, the DCT will hold lower gears for longer — great for overtaking but uses more fuel" data-ar="في وضع Sport، يُمسك الـ DCT بالتروس المنخفضة أطول — ممتاز للتجاوز لكن يستهلك وقوداً أكثر">In Sport mode, DCT holds lower gears longer — great for overtaking but uses more fuel</li>
+      </ul>
+    </div>
+
+    <div class="sec-title" data-en="REMOTE START ACTIVATION" data-ar="تفعيل التشغيل عن بُعد">REMOTE START ACTIVATION</div>
+    <div class="cblock" style="margin-bottom:24px">
+      <h3 data-en="If Remote Start Isn't Working — Re-program Your Key Fob" data-ar="إذا لم يعمل التشغيل عن بُعد — أعد برمجة الريموت">If Remote Start Isn't Working — Re-program Your Key Fob</h3>
+      <p data-en="Sometimes the key fob receives the pairing code but hasn't been programmed to the car's buttons. The fix is simple:" data-ar="أحياناً الريموت بياخد الكود بتاعه بس محدش داس على الزرارات عشان العربية تتبرمج على كل زرار. الحل بسيط:">Sometimes the key fob receives the pairing code but hasn't been fully programmed to the car. The fix is simple:</p>
+      <ul class="feat-list">
+        <li data-en="Press the LOCK button 3–4 times in quick succession (normal presses)" data-ar="اضغط زرار القفل 3 أو 4 مرات ورا بعض دوسات عادية">Press the <strong>LOCK</strong> button 3–4 times in quick succession (normal presses)</li>
+        <li data-en="Press the UNLOCK button 3–4 times in quick succession (normal presses)" data-ar="اضغط زرار الفتح 3 أو 4 مرات ورا بعض دوسات عادية">Press the <strong>UNLOCK</strong> button 3–4 times in quick succession (normal presses)</li>
+        <li data-en="Press LOCK once (normal press) then immediately press and hold the REMOTE START button with a long press" data-ar="اضغط زرار القفل مرة واحدة دوسة عادية ثم على طول اضغط باستمرار زرار التشغيل عن بُعد دوسة طويلة">Press <strong>LOCK</strong> once (normal press) → then immediately press and hold the <strong>REMOTE START</strong> button (long press)</li>
+        <li data-en="Repeat the last step multiple times until the remote start works" data-ar="كرر الخطوة الأخيرة أكثر من مرة لحد ما يشتغل معاك">Repeat the last step multiple times until the remote start activates</li>
+      </ul>
+      <div class="hbox tip" data-en="💡 Use remote start in summer to pre-cool the cabin before you get in — saves you from entering a hot car. The car will run for a set time then shut off automatically." data-ar="💡 استخدم التشغيل عن بُعد في الصيف لتبريد المقصورة قبل الدخول — يوفر عليك ركوب سيارة ساخنة. ستعمل السيارة لفترة محددة ثم تطفئ نفسها تلقائياً.">💡 Use remote start in summer to pre-cool the cabin before you get in. The car will run for a set time then shut off automatically.</div>
+    </div>
+
+    <div class="sec-title" data-en="CITY & TRAFFIC TIPS" data-ar="نصائح المدينة والازدحام">CITY &amp; TRAFFIC TIPS</div>
     <div class="cblock">
       <ul class="feat-list">
         <li data-en="Use Auto Hold in stop-and-go traffic — no need to hold the brake pedal for long waits" data-ar="استخدم Auto Hold في حركة المرور المتقطعة — لا حاجة للضغط على دواسة الفرامل في الانتظارات الطويلة">Use Auto Hold in stop-and-go traffic — no need to hold the brake pedal</li>
