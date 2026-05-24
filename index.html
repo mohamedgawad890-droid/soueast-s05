@@ -271,6 +271,7 @@ nav {
   .brand-name { display:none; }
   .nav-tab { padding:7px 10px; font-size:12px; }
   .lang-btn span { display:none; }
+  .spec-tables-grid { grid-template-columns:1fr !important; }
 }
 
 /* ── MOBILE SECTION PICKER ── */
@@ -330,7 +331,7 @@ nav {
 
   <div class="section">
     <div class="sec-title" data-en="KEY SPECIFICATIONS" data-ar="المواصفات الرئيسية">KEY SPECIFICATIONS</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:32px">
+    <div class="spec-tables-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:32px">
       <div>
         <table class="spec-table">
           <tr><td data-en="Engine" data-ar="المحرك">Engine</td><td>1.5L Turbo 4-cyl</td></tr>
@@ -353,7 +354,7 @@ nav {
       </div>
     </div>
 
-    <div class="sec-title" data-en="WHAT'S INCLUDED" data-ar="ما يشمله السيارة">WHAT'S INCLUDED</div>
+    <div class="sec-title" data-en="WHAT'S INCLUDED" data-ar="ما تشمله السيارة">WHAT'S INCLUDED</div>
     <div class="cards-grid" style="margin-bottom:32px">
       <div class="card" style="--card-color:#f97316">
         <div class="card-icon">🖥️</div>
@@ -531,7 +532,7 @@ nav {
           <h3 data-en="Pairing Your Phone via Bluetooth" data-ar="إقران هاتفك عبر البلوتوث">Pairing Your Phone via Bluetooth</h3>
           <ul class="feat-list">
             <li data-en="On the infotainment screen, go to: Phone → Bluetooth → Add device" data-ar="على شاشة الترفيه، اذهب إلى: الهاتف ← البلوتوث ← إضافة جهاز">On the infotainment screen: Phone → Bluetooth → Add device</li>
-            <li data-en="On your phone, enable Bluetooth and select 'Soueast S05' or 'Jetour' from the device list" data-ar="على هاتفك، شغّل البلوتوث واختر 'Soueast S05' أو 'Jetour' من قائمة الأجهزة">On your phone, enable Bluetooth and select 'Soueast S05' from the device list</li>
+            <li data-en="On your phone, enable Bluetooth and select 'Soueast S05' from the device list" data-ar="على هاتفك، شغّل البلوتوث واختر 'Soueast S05' من قائمة الأجهزة">On your phone, enable Bluetooth and select 'Soueast S05' from the device list</li>
             <li data-en="Confirm the pairing code shown on both screens" data-ar="أكّد رمز الإقران المعروض على الشاشتين">Confirm the pairing code shown on both screens</li>
             <li data-en="Once paired, your phone will automatically connect when you start the car" data-ar="بعد الإقران، سيتصل هاتفك تلقائياً عند تشغيل السيارة">Once paired, your phone will automatically connect when you start the car</li>
           </ul>
@@ -539,11 +540,11 @@ nav {
         <div class="cblock">
           <h3 data-en="Audio Sources Available" data-ar="مصادر الصوت المتاحة">Audio Sources Available</h3>
           <div class="pills">
-            <span class="pill blue">📻 AM/FM Radio</span>
-            <span class="pill blue">📱 Bluetooth Audio</span>
-            <span class="pill blue">🔌 USB Music</span>
-            <span class="pill blue">🍎 CarPlay</span>
-            <span class="pill blue">🤖 Android Auto</span>
+            <span class="pill blue" data-en="📻 AM/FM Radio" data-ar="📻 راديو AM/FM">📻 AM/FM Radio</span>
+            <span class="pill blue" data-en="📱 Bluetooth Audio" data-ar="📱 صوت بلوتوث">📱 Bluetooth Audio</span>
+            <span class="pill blue" data-en="🔌 USB Music" data-ar="🔌 موسيقى USB">🔌 USB Music</span>
+            <span class="pill blue" data-en="🍎 CarPlay" data-ar="🍎 كاربلاي">🍎 CarPlay</span>
+            <span class="pill blue" data-en="🤖 Android Auto" data-ar="🤖 أندرويد أوتو">🤖 Android Auto</span>
           </div>
         </div>
       </div>
@@ -951,6 +952,7 @@ function showPage(id) {
 
 // ── Sub-section navigation ──
 function showSub(page, idx) {
+  idx = parseInt(idx, 10);
   const subs = document.querySelectorAll('#page-' + page + ' .sub-section');
   const items = document.querySelectorAll('#page-' + page + ' .sidebar-item');
   subs.forEach((s,i) => { s.classList.toggle('active', i === idx); });
